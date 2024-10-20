@@ -40,7 +40,7 @@
    这可能导致此上游存储库被 GitHub 禁用**)
 
 
-2. **设置 Secrets**：在你的 GitHub 仓库中，点击 "Settings"（设置），然后在左侧菜单中，点击 "Secrets"（密钥）。点击 "New
+2. **设置 Secrets**：在你的 GitHub 仓库中，点击 "Settings"（设置），然后1在左侧菜单中，点击 "Secrets"（密钥）。点击 "New
    repository secret"（新建仓库密钥），并添加以下密钥：
 
    ```
