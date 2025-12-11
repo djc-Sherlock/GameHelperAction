@@ -173,8 +173,8 @@ def entry():
                     "smoba_sCampUserId"
                 ]
         ):
-            do_camp_list()
-            do_camp_reward()
+            # do_camp_list()
+            # do_camp_reward()
         else:
             send_content += ">环境变量未配置\n"
         send_content += "#####################################\n"
