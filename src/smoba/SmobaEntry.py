@@ -166,17 +166,17 @@ def entry():
             do_clear_like()
         else:
             send_content += ">环境变量未配置\n"
-        if Util.check_repo_secrets(
-                [
-                    "smoba_sMSDKUrlParam",
-                    "smoba_sOpenId",
-                    "smoba_sCampUserId"
-                ]
-        ):
-            # do_camp_list()
-            # do_camp_reward()
-        else:
-            send_content += ">环境变量未配置\n"
+        # if Util.check_repo_secrets(
+        #         [
+        #             "smoba_sMSDKUrlParam",
+        #             "smoba_sOpenId",
+        #             "smoba_sCampUserId"
+        #         ]
+        # ):
+        #     # do_camp_list()
+        #     # do_camp_reward()
+        # else:
+        #     send_content += ">环境变量未配置\n"
         send_content += "#####################################\n"
         print(send_content)
         ServerChan.send("Action-王者营地", send_content)
